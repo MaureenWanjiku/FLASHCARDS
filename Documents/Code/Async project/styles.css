@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 0.5px solid rgb(252, 231, 231);
+    border-radius: 16px;
+    /* height: 400px;
+    width: 325px; */
+    background-color: rgb(240, 238, 238);
+    vertical-align: middle;
+}
+
+.country__data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.countries {
+    display: flex;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.country {
+    /* background-color: white; */
+    /* box-shadow: 0.2rem 5rem 1rem rgba(0, 0, 0, 0.1); */
+    /* width: 250px; */
+    border-radius: 1rem;
+}
+
+span {
+    padding-right: 1rem;
+    letter-spacing: 2px;
+}
+
+p {
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
