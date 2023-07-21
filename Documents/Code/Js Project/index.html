@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="error"></div>
+
+    <h4>Validation Form</h4>
+    <div class="container">
+      <form id="form">
+      <div class="fname">
+          <label for="fname">First Name</label> 
+         <input type="text" id="fname" name="First Name" required> 
+      </div>
+
+       <div class="lname"> 
+        <label for="lname">Last Name</label> 
+        <input type="text" id="lname" name="last Name"> 
+       </div> 
+
+       <div class="password">
+        <lable for = "Password">Password</lable> 
+        <input type="password" id="Password" name="Password"> 
+       </div>
+
+       <div class="tel">
+        <label for="tel"> Tel Number</label> 
+        <input type="tel" id="telephone-number" name="telephone-number"> 
+       </div>
+
+       <div class="email">
+        <label for="email">Email</label> 
+        <input type="email" id="email" name="email"> 
+       </div>
+
+
+        <!-- <div class="gender">
+           <span>
+        <p>sex</p> 
+        <label for="Sex">Maless</label> 
+        <input type="radio" id="sex" name="sex" value="Male">
+        <label for="Sex">Female</label> 
+        <input type="radio" id="sex" name="sex" value="Female"> 
+           </span>
+       </div>   -->
+
+        <div class="Languages">
+         <label for="Language">Language</label> 
+          <input list="Languages">
+          <datalist id="Languages">
+            <option value="English">
+            <option value="French">
+            <option value="Kiswahili">
+            <option value="Kirundi">
+          </datalist>
+        </div>
+
+        <div class="birth">
+          <label for="Birthdate">Birthdate</label>
+          <input type="date" id="date" name="date">
+        </div>
+
+        <div class="country">
+          <label for="Country">Country</label> 
+           <select name="Countries">
+               <option value="Uganda">Uganda</option>
+               <option value="Tanzania">Tanzania</option>
+               <option value="Kenya">Kenya</option>
+               <option value="Rwanda">Rwanda</option>
+               <option value="Burundi">Burundi</option>
+           </select>
+        </div>
+  
+
+       <div class="submit">
+         <input type="submit" value="submit"> 
+       </div>
+    </div>
+    </form>
+   
+<script src="index.js"></script>
+</body>
+</html>

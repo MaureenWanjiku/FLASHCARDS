@@ -1,0 +1,75 @@
+body {
+    /* margin: 5rem; */
+    box-sizing: border-box;
+    background-color: rgb(232, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lname {
+    margin-top: 1rem;
+}
+
+.password {
+    margin-top: 1rem;
+}
+
+.tel {
+    margin-top: 1rem;
+}
+
+.email {
+    margin-top: 1rem;
+}
+
+.gender {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.country {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.Languages {
+    margin-top: 1rem;
+}
+
+.submit {
+    margin-top: 1rem;
+}
+
+.birth {
+    margin-top: 1rem;
+}
+
+input {
+    /* margin-left: 1rem; */
+    padding: 4px;
+    width: 100%;
+    border: 1px dotted rgb(221, 64, 116);
+    cursor: pointer;
+}
+
+input :focus {
+    background-color: rgb(194, 140, 194);
+    border: 1px solid rgb(148, 10, 10);
+}
+
+.country select{
+    width: 100%;
+    padding: 4px;
+    border: 1px dotted rgb(221, 64, 116);
+    background-color: white;
+}
